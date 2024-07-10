@@ -1,6 +1,20 @@
+@import url("./header.css");
+
 :root {
   --fonte-principal: "IBM Plex Mono", sans-serif;
   --fonte-titulo: "Press Start 2P";
+
+  --tamanho-fonte-15px: .93rem;
+  --tamanho-fonte-16px: 1rem;
+  --tamanho-fonte-20px: 1.25rem;
+  --tamanho-fonte-24px: 1.5rem;
+
+  --espessura-fonte-extralight: 200;
+  --espessura-fonte-regular: 400;
+  --espessura-fonte-medium: 400;
+  --espessura-fonte-semibold: 600;
+  --espessura-fonte-bold: 700;
+
   --azul: #03318c;
   --roxo: #5300c8;
   --preto: #000000;
@@ -9,5 +23,5 @@
 
 body {
   font-family: var(--fonte-principal);
-  font-size: 1rem;
+  font-size: var(--tamanho-fonte-16px);
 }

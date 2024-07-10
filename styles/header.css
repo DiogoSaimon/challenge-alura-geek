@@ -1,0 +1,20 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    background: var(--roxo);
+    padding: 1.5rem 0;
+}
+
+.cabecalho__imagem {
+    width: 8.62rem;
+    height: 3.5rem;
+}
+
+.cabecalho__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-fonte-24px);
+    font-weight: var(--espessura-fonte-regular);
+    color: var(--branco);
+}
