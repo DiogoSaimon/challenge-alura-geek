@@ -1,0 +1,13 @@
+:root {
+  --fonte-principal: "IBM Plex Mono", sans-serif;
+  --fonte-titulo: "Press Start 2P";
+  --azul: #03318c;
+  --roxo: #5300c8;
+  --preto: #000000;
+  --branco: #ffffff;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 1rem;
+}
