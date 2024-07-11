@@ -29,6 +29,17 @@
     padding-bottom: 2.5rem;
 }
 
+.meus__produtos__lista__vazia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-fonte-24px);
+    font-weight: var(--espessura-fonte-regular);
+}
+
 @media screen and (max-width: 1440px) {
     .meus__produtos {
         width: 65%;

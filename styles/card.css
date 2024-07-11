@@ -1,4 +1,5 @@
 .meus__produtos__card {
+    position: relative;
     background: var(--roxo);
     width: 12.25rem;
     height: 16.125rem;
@@ -8,12 +9,20 @@
     box-shadow: -5px 6px 3.3px var(--preto-25-opacidade);
 }
 
-.meus__produtos__lista__card {
+.meus__produtos__lista__card__imagem {
     width: 100%;
+    height: 77%;
     padding-bottom: .625rem;
 }
 
+.meus__produtos__lista__card__texts{
+    height: 100%;
+    width: 100%;
+}
+
 .meus__produtos__lista__card__titulo {
+    width: 100%;
+    height: auto;
     font-size: var(--tamanho-fonte-15px);
     font-weight: var(--espessura-fonte-regular);
     color: var(--branco);
@@ -23,8 +32,9 @@
 
 .meus__produtos__lista__card__preco {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    width: 100%;
     font-family: var(--fonte-principal);
     font-size: var(--tamanho-fonte-16px);
     font-weight: var(--espessura-fonte-bold);

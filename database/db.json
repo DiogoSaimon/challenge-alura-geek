@@ -3,50 +3,50 @@
         {
             "id": 1,
             "nome": "Teclado Gamer",
-            "preco": "299.9",
+            "preco": "299.99",
             "imagem": "https://images.tcdn.com.br/img/img_prod/745260/teclado_gamer_semi_mecanico_led_rgb_abnt2_usb_pc_ps4_xbox_67_1_d5520f952b2ee293ee340c520427101e.jpg"
         },
         {
             "id": 2,
             "nome": "Mouse Gamer",
-            "preco": "199.9",
+            "preco": "199.99",
             "imagem": "https://images.tcdn.com.br/img/img_prod/745260/mouse_gamer_para_jogo_3_200_dpi_optico_com_led_rgb_usb_exbom_61_1_2872550bb7359107aab68d259639a64e.jpg"
         },
         {
             "id": 3,
             "nome": "Mousepad Gamer",
-            "preco": "109.9",
+            "preco": "109.99",
             "imagem": "https://images.kabum.com.br/produtos/fotos/386885/mousepad-gamer-havit-800x500mm-rgb-usb-preto-mp903_1666894308_gg.jpg"
         },
         {
             "id": 4,
             "nome": "Microfone Gamer",
-            "preco": "359.9",
+            "preco": "359.99",
             "imagem": "https://images.kabum.com.br/produtos/fotos/101288/microfone-gamer-hyperx-quadcast-antivibracao-led-preto-e-vermelho-hx-micqc-bk_1615553162_g.jpg"
         },
         {
             "id": 5,
             "nome": "Caixas Multimídia",
-            "preco": "699.9",
+            "preco": "699.99",
             "imagem": "https://edifier.com.br/pub/media/catalog/product/f/u/full_r1080bt_11.jpg"
         },
         {
             "id": 6,
             "nome": "Monitor Gamer",
-            "preco": "1599.9",
+            "preco": "1599.99",
             "imagem": "https://images.kabum.com.br/produtos/fotos/434391/monitor-gamer-lg-ultragear-24-full-hd-144hz-1ms-ips-hdmi-e-displayport-99-srgb-hdr-freesync-premium-vesa-24gn60r-b-awzm_1680616910_gg.jpg"
         },
         {
             "id": 7,
             "nome": "Echo Dot",
-            "preco": "369.9",
+            "preco": "369.99",
             "imagem": "https://i.zst.com.br/thumbs/12/c/f/-1062741168.jpg"
         },
         {
             "id": 8,
             "nome": "Cadeira Gamer",
-            "preco": "919.9",
-            "imagem": "https://m.media-amazon.com/images/I/71rpGOUI-2L._AC_UF894,1000_QL80_.jpg"
+            "preco": "919.99",
+            "imagem": "https://static.mundomax.com.br/produtos/79603/100/1.webp"
         }
     ]
 }
