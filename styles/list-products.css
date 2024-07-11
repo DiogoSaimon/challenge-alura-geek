@@ -1,0 +1,135 @@
+.meus__produtos {
+    width: 55%;
+    height: 70vh;
+}
+
+.meus__produtos__container {
+    height: 55vh;
+    padding: 2.5rem;
+    overflow: auto;
+    box-shadow: -12px 10px 5.8px var(--preto-25-opacidade);
+}
+
+.meus__produtos__lista {
+
+    padding: .93rem 3.43rem 1.56rem .93rem;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.85rem;
+}
+
+.meus__produtos__titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-fonte-24px);
+    font-weight: var(--espessura-fonte-regular);
+    padding-bottom: 2.5rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .meus__produtos {
+        width: 65%;
+        height: 70vh;
+    }
+
+    .meus__produtos__lista {
+
+        padding: .93rem .93rem 1.56rem .93rem;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .meus__produtos {
+        width: 60%;
+        height: 70vh;
+    }
+
+    .meus__produtos__lista {
+
+        padding: .93rem .93rem 1.56rem .93rem;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .meus__produtos {
+        width: 56%;
+        height: 70vh;
+    }
+
+    .meus__produtos__container {
+        height: 59vh;
+        padding: 0;
+
+    }
+
+    .meus__produtos__lista {
+
+        padding: .93rem .93rem 1.56rem .93rem;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .meus__produtos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+
+    .meus__produtos__container {
+        height: 100%;
+        padding: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .meus__produtos__lista {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .meus__produtos {
+        width: 100%;
+    }
+
+    .meus__produtos__container {
+        box-shadow: none;
+    }
+
+    .meus__produtos__lista {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
