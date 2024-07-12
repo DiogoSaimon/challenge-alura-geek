@@ -43,7 +43,7 @@
 #mensagem-erro {
     width: 100%;
     display: none;
-    padding: 1rem;
+    padding-left: 1rem;
     color: var(--rosa-cardial);
     font-weight: var(--espessura-fonte-bold);
     font-style: italic;
