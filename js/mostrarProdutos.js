@@ -1,4 +1,5 @@
-import { conectaAPI } from "./conectaApi.js"
+import { conectaAPI } from "./conectaApi.js";
+import { deletarProduto } from "./removerProduto.js";
 
 const lista = document.querySelector("[data-lista]");
 
@@ -12,7 +13,7 @@ function construirCard(nome, preco, imagem, id) {
             <p class="meus__produtos__lista__card__titulo">${nome}</p>
               <div class="meus__produtos__lista__card__preco">
                 <p class="meus__produtos__lista__card__titulo">$ ${precoComVírgula}</p>
-                <img class="meus__produtos__lista__card__icone" id="${id}" src="./assets/delete-icon.png"></img>
+                <img class="meus__produtos__lista__card__icone" id="${id}" src="./assets/delete-icon.png" data-remover></img>
               </div>
                 </div>
 
@@ -29,16 +30,18 @@ function mensagemErroNaLista(elemento, classe, mensagem) {
 
 async function listarCard() {
     try {
-        const listaAPI = await conectaAPI.listaProdutos();
+        const listaAPI = await conectaAPI.mostrarProdutos();
 
         if (listaAPI.length > 0) {
             await listaAPI.forEach(element => lista.appendChild(
                 construirCard(element.nome, element.preco, element.imagem, element.id)
             ));
 
-            // adicionar o método delete aqui
+            const botaoDeletar = document.querySelectorAll("[data-remover]");
+            botaoDeletar.forEach(botao => {
+                botao.addEventListener("click", () => deletarProduto(botao.id));
+            });
         } else {
-
             mensagemErroNaLista(lista, "meus__produtos__lista__vazia", "NENHUM PRODUTO CADASTRADO");
         }
     } catch (error) {
